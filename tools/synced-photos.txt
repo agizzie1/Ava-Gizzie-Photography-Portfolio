@@ -1,4 +1,3 @@
-Features:Opinions/DSC_6317.JPG
 Features:Opinions/DSC_6370.JPG
 Features:Opinions/The Phoenix - Sexual Health Data - 2026.JPG
 Features:Opinions/The Phoenix - Swat Says - 2026.JPG
@@ -70,3 +69,4 @@ Sports Photography/Swarthmore College - Women's Lacrosse 1 - 2024.JPG
 Sports Photography/Swarthmore College - Women's Lacrosse 2 - 2024.JPG
 Sports Photography/Tiro Sports - Boys Soccer - 2024.JPG
 Sports Photography/Tiro Sports - Girls Soccer - 2024.jpeg
+Features:Opinions/DSC_6317.JPG
