@@ -128,6 +128,7 @@ section { padding-block: 104px; border-top: 1px solid var(--rule); }
 .play span { width: 88px; height: 88px; border-radius: 50%; background: rgba(255,255,255,.92); display: grid; place-items: center; }
 .play span::before { content: ""; border-left: 26px solid #111; border-top: 16px solid transparent; border-bottom: 16px solid transparent; margin-left: 6px; }
 .r-169 { aspect-ratio: 16 / 9; cursor: default; }
+.frame video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #000; }
 
 /* blog */
 .posts { display: grid; border-top: 1px solid var(--fg); }

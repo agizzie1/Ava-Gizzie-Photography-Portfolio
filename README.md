@@ -11,6 +11,7 @@ website/
 ├── css/style.css       colors, fonts, layout and grids
 ├── js/main.js          photo lightbox and nav highlighting
 ├── images/             web-sized copies of the photos (about 1800px wide)
+├── video/              web-sized copy of the video (720p)
 └── tools/resize-photo.sh   makes a web-sized copy of a new photo
 ```
 
@@ -72,6 +73,5 @@ Each section is a `<section id="...">` in `index.html` (or `seattle-times.html`)
 These are marked with gray "Sample" labels on the page:
 
 - Photo essay title and intro
-- The Video section (no video yet)
 - The three blog posts
 - Bio and contact details in About
