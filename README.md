@@ -24,7 +24,21 @@ Your full-size originals stay in the folders next to `website/` (News, Sports Ph
 
 ## Common edits
 
-### Add a photo
+### Add a photo automatically
+
+Drop the photo into its folder (News, Sports Photography, Portraits, Features:Opinions, Photo Essay or Personal), then run:
+
+```bash
+tools/sync-photos.py
+```
+
+For each photo it hasn't seen before, it makes a web-sized copy, adds a `<figure>` at the end of that section in `index.html` with the date and camera settings filled in, and updates the photo count. Then edit the new caption and `alt` text, and adjust the layout classes if needed. New portraits go in "More portraits."
+
+To have this run on its own whenever a folder changes, run `tools/install-auto-sync.sh` once. You'll get a notification each time photos are added. To turn it off, run `tools/install-auto-sync.sh --uninstall`.
+
+`tools/synced-photos.txt` lists every photo that's already been handled. To skip a photo, add its line there (for example, `News/DSC_6320.JPG`). To add a photo again, delete its line. The Seattle Times page and the Video folder aren't synced.
+
+### Add a photo by hand
 
 1. Make a web-sized copy:
    ```bash
