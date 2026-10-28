@@ -47,6 +47,9 @@ a { color: inherit; }
 .links a { font-size: 14px; text-decoration: none; color: var(--muted); padding: 6px 10px; white-space: nowrap; border-bottom: 1px solid transparent; }
 .links a:hover { color: var(--fg); }
 .links a.on { color: var(--fg); border-bottom-color: var(--fg); }
+/* page tab: links between the main portfolio and the Seattle Times page */
+.tab { font-size: 14px; text-decoration: none; padding: 5px 10px; border: 1px solid var(--fg); white-space: nowrap; flex-shrink: 0; }
+.tab:hover { background: var(--fg); color: var(--bg); }
 
 /* ---------- type ---------- */
 .eyebrow { font-size: 12px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: flex; gap: 16px; flex-wrap: wrap; }
@@ -177,4 +180,5 @@ dialog .exif { color: #aaa; }
   .contact { grid-template-columns: minmax(0, 1fr); }
   .brand { font-size: 19px; }
   .nav .wrap { gap: 12px; }
+  .tab { font-size: 13px; padding: 4px 8px; }
 }

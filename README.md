@@ -7,6 +7,7 @@ A one-page, scrolling photography portfolio written in plain HTML, CSS and JavaS
 ```
 website/
 ├── index.html          all page content: sections, photos, captions
+├── seattle-times.html  separate Seattle Times internship page (News, Sports, Features, Portraits)
 ├── css/style.css       colors, fonts, layout and grids
 ├── js/main.js          photo lightbox and nav highlighting
 ├── images/             web-sized copies of the photos (about 1800px wide)
@@ -64,7 +65,7 @@ Change the variables at the top of `css/style.css` (`--bg`, `--fg`, `--display`,
 
 ### Add or remove a section
 
-Each section is a `<section id="...">` in `index.html`. If you add or remove one, also add or remove its link in the `<nav>` at the top. The link's `href="#id"` must match the section's `id`.
+Each section is a `<section id="...">` in `index.html` (or `seattle-times.html`). If you add or remove one, also add or remove its link in the `<nav>` at the top. The link's `href="#id"` must match the section's `id`.
 
 ## Still to replace
 
