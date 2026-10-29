@@ -5,28 +5,19 @@ body { margin: 0; }
 img { max-width: 100%; }
 [hidden] { display: none !important; }
 
-/* Layout: white gallery wall, one long scroll. Large light serif for names and section titles, quiet sans for everything else, square black buttons. Photos carry all the color. */
+/* Layout: dark gallery wall, one long scroll. Large light serif for names and section titles, quiet sans for everything else, square buttons. Photos carry all the color. Always dark, regardless of the visitor's system setting. */
 :root {
-  --bg: #ffffff;
-  --surface: #f1f1ef;
-  --fg: #0b0b0b;
-  --muted: #5f5f5c;
-  --rule: #e3e3e0;
+  --bg: #0d0d0d;
+  --surface: #1b1b1a;
+  --fg: #f2f2ef;
+  --muted: #a09f9b;
+  --rule: #2a2a28;
+  color-scheme: dark;
   --display: "Playfair Display", "Didot", "Bodoni 72", Georgia, serif;
   --body: "Wix Madefor Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --gutter-l: max(16px, env(safe-area-inset-left, 0px));
   --gutter-r: max(16px, env(safe-area-inset-right, 0px));
   --maxw: 1320px;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0d0d0d; --surface: #1b1b1a; --fg: #f2f2ef; --muted: #a09f9b; --rule: #2a2a28;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0d0d0d; --surface: #1b1b1a; --fg: #f2f2ef; --muted: #a09f9b; --rule: #2a2a28;
-  color-scheme: dark;
 }
 
 html { scroll-behavior: smooth; scroll-padding-top: 72px; }
